@@ -1,0 +1,6 @@
+{% from 'Automata.template' import automata_macro %}
+
+{#
+#}
+{{ automata_macro(automata, before_match_reg, after_match_reg, bit_feed_size, lut_bram_dic) }}
+
